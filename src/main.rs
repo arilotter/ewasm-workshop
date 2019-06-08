@@ -3,15 +3,10 @@ extern crate rand;
 
 mod utils;
 
-use std::str;
-
 use wasmer_runtime::{
     imports,
-    instantiate,
     error,
     func,
-    Ctx,
-    compile,
     compile_with
 };
 use wasmer_middleware_common::metering;
